@@ -11,11 +11,13 @@ Plants angiospermes : 30+45+20+50+25+18+12+22 = 222
 
 | Action | Attendu | Obtenu | Testeur |
 | --- | --- | --- | --- |
-| Calcul du stock total|240 | | |
-| Total plants angiospermes | 222 | | |
-| Total plants gymnospermes | 18 | | |
-| Total espèces angiospermes | 8 | | |
-| Total espèces gymnospermes | 2 |  | |
-| Stock faible (10 plants ou moins) |N09, N10 | | |
-| Espèce plus abondante | N04 |  | | 
+| Ajouter un plant| possible | test OK | RichmondToure |
+| Lister l'inventaire | possible | test OK | RichmondToure |
+| Rechercher (code, nom, groupe) | possible | test OK | RichmondToure |
+| Trier (nombre de plants) | possible |test OK| RichmondToure|
+| Synthèse des quantités | possible | test OK | RichmondToure|
+| Supprimer un plant | possible | test OK | RichmondToure|
+| Modifier un plant| possible |  test ok | RichmondToure| 
+
 **Sur un autre poste** (`git clone`, `node app.js`, `npm test`, en suivant le README) : ✏️
+Les resultats des tests sont tous conformes aux resultats attendus
